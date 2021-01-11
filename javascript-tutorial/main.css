@@ -1,0 +1,60 @@
+.wrap {
+    width: 100%;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.tutorial, #question, #terminal {
+    float: left;
+    width: 33%;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#question {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+#terminal {
+    border: 1px solid #000000;
+    background-color: white;
+}
+
+.outer {
+    margin: 0 auto;
+}
+
+.inner {
+    margin-left: 5%;
+}
+
+.formLength {
+    width: 98%;
+}
+
+.formShow {
+    display: block;
+}
+
+.formHidden {
+    display: none;
+}
+
+#myForm {
+    margin-top: 50px;
+}
+
+#nav {
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    left: 15%;
+}

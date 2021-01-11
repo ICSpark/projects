@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Tutorial</title>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+</head>
+<body>
+    <div class='wrap'>
+        <div id='Page1' class='tutorial show'>
+            <p>1. You can print stuff to the console using <b>console.log()</b>.</p>
+            <p>Try this now by writing <b>console.log("Hello World");</b>.</p>
+        </div>
+
+        <div id='Page2' class='tutorial hidden'>
+            <p>2. In Javascript, variables can be declared using <b>var</b>.</p>
+            <p>You then give it a name before ending it with a semicolon ";".</p>
+            <p>Try this by declaring a variable called <b>num</b>.</p>
+        </div>
+
+        <div id='Page3' class='tutorial hidden'>
+            <p>3. You can also give a variable a value using <b>=</b>.</p>
+            <p>Try this by declaring a variable called <b>num</b> and set it equal to <b>5</b>.</p>
+            <p>Then print it to the console by placing the variable name inside the paranthesis without the quotation marks.</p>
+            <p class='outer'>Ex: <br>
+                <div class='inner'>var num = 1;</div>
+                <div class='inner'>console.log(num);</div>
+            </p>
+        </div>
+
+        <div id='Page4' class='tutorial hidden'>
+            <p>4. You can also create decimals numbers. Unlike other coding languages, you don't need to deferentiate between integers, doubles, and floats.</p>
+            <p>Try and declare a variable <b>num</b> and set it equal to <b>1.25</b> before printing it on the console.</p>
+        </div>
+
+        <div id='Page5' class='tutorial hidden'>
+            <p>5. So far, you have set variables as numbers.</p>
+            <p>However, if you want to set the variable as a word or sentence, you must set them as a <b>strings</b>.</p>
+            <p>To do this, you put double quotes "" around the word or sentence.</p>
+            <p>Try and declare a variable <b>str</b> and set it equal to <b>Hello</b> before printing it to the console.</p>
+        </div>
+
+        <div id='Page6' class='tutorial hidden'>
+            <p>6. You can also manipulate variables with math operators (e.g. +, -, *, etc.).</p>
+            <p>You can store the result of your operation in a new variable.</p>
+            <p>Try this by declaring two variables, x and y. Set <b>x = 5</b> and <b>y = 3</b>, then <b>multiply</b> them and store it in a new variable <b>z</b>.</p>
+            <p class='outer'>Ex: <br>
+                <div class='inner'>
+                    var x = 2; <br>
+                    var y = 3; <br>
+                    var z = x + y;
+                </div>
+            </p>
+        </div>
+
+        <div id='Page7' class='tutorial hidden'>
+            <p>7. Variables can also be manipulated after they already been declared. Simply write the variable name and set it equal to the new value you want it to be.</p>
+            <p>Futhermore, you can even use the variable itself and creating a new value.</p>
+            <p>
+                Try this by declaring a variable <b>x</b> set it equal to <b>5</b>.
+                Then <b>double</b> it before printing <b>x</b> to the console.
+            </p>
+            <p class='outer'>Ex: </p>
+                <div class='inner'>
+                    var x = 2; <br>
+                    x = x + 1;
+                </div>
+        </div>
+
+        <div id='Page8' class='tutorial hidden'>
+            <p>8. Strings are also affected by math operations.</p>
+            <p>
+                Try this by declaring two variables <b>str1</b> and <b>str2</b>. <br>
+                Then set str1 as <b>Hello</b> and str2 as <b>World</b>. <br>
+                Then declare a new variable <b>str3</b> and set it equal to str1 + str2. <br>
+                Finally, print str3 onto the console.
+            </p>
+        </div>
+
+        <div id='Page9' class='tutorial hidden'>
+            <p>9. You can also add additional words to a string using the <b>+</b> operator. This is done by putting the words you want to add in quotation marks then adding a + to combine the terms</p>
+            <p>
+                Try this by declaring a variable <b>str1</b> and setting it as <b>red</b>. <br>
+                Declare a second variable <b>str2</b> and set it as <b>"This is a " + str1 + " circle"</b>. <br>
+                Finally, print it to the console.
+            </p>
+            <p class='outer'>Ex:</p>
+                <div class='inner'>
+                    var str1 = blue; <br>
+                    var str2 = "It's " + str1; <br>
+                    console.log(str2);
+                </div>
+        </div>
+
+        <div id='Page10' class='tutorial hidden'>
+            <p>10. There is a conditional operation <b>if()</b> that executes a block of code if a specified condition in the parenthesis is true.</p>
+            <p>Comparison operators can be used to compare two values for the conditional statement.</p>
+            <ul>
+                <li>== - Equal to</li>
+                <li>=== - Equal value and equal type</li>
+                <li>!= - Not equal</li>
+                <li>!== - Not equal value and not equal type</li>
+            </ul>
+            <p>Try this by placing the conditional statement <b>5 == 5</b> inside the parenthesis and running the code <b>console.log("true")</b> if the condition is true.</p>
+            <p class='outer'>Ex:</p>
+                <div class='inner'>
+                    if (1 == 1) { <br>
+                        <div class='inner'>
+                            console.log("true"); <br>
+                        </div>
+                    }
+                </div>
+        </div>
+
+        <div id='Page11' class='tutorial hidden'>
+            <p>11. Variables can also be used in conditional statements.</p>
+            <p>
+                Try this by declaring a variable <b>x</b> and setting it equal to <b>10</b>. <br>
+                Then compare variable <b>x</b> to <b>10</b>. <br>
+                If true, print to the console <b>true</b>.
+            </p>
+        </div>
+
+        <div id='Page12' class='tutorial hidden'>
+            <p>12. With the if conditional statement, there is also <b>else</b> which runs a specified code if the condition is false.</p>
+            <p>
+                Try this by creating the condition <b>0 == 1</b>. <br>
+                If true, then print <b>true</b>, else print false.
+            </p>
+            <p class='outer'>Ex:</p>
+                <div class='inner'>
+                    if (x == 5) { <br>
+                        do something <br>
+                    } else { <br>
+                        do something <br>
+                    } 
+                </div>
+        </div>
+
+        <div id='Page13' class='tutorial hidden'>
+            <p>13. For the condition, you don't need to compare elements.</p>
+            <p>You can simply write true in the paranthesis and it will run the specified code.</p>
+            <p>Try this by writing an <b>if statement</b>, writing true in the paranthesis, and printing <b>true</b> to the console if it is true.</p>
+        </div>
+
+        <div id='question'>
+            <form id='myForm' onsubmit='return false;' onkeypress="return checkSubmit(event)">
+                <input type='text' id='userInput1' class='formLength formShow'>
+                <input type='text' id='userInput2' class='formLength formHidden'>
+                <input type='text' id='userInput3' class='formLength formHidden'>
+                <input type='text' id='userInput4' class='formLength formHidden'>
+                <input type='text' id='userInput5' class='formLength formHidden'> <br><br>
+                <button name='submit' type='button' onclick='getData()'>Submit</button>
+            </form>
+        </div>
+
+        <div id='terminal'></div>
+    </div>
+
+    <div id='nav'>
+        <a href='#' onclick='return changePage("Page1");'>1</a>
+        <a href='#' onclick='return changePage("Page2");'>2</a>
+        <a href='#' onclick='return changePage("Page3");'>3</a>
+        <a href='#' onclick='return changePage("Page4");'>4</a>
+        <a href='#' onclick='return changePage("Page5");'>5</a>
+        <a href='#' onclick='return changePage("Page6");'>6</a>
+        <a href='#' onclick='return changePage("Page7");'>7</a>
+        <a href='#' onclick='return changePage("Page8");'>8</a>
+        <a href='#' onclick='return changePage("Page9");'>9</a>
+        <a href='#' onclick='return changePage("Page10");'>10</a>
+        <a href='#' onclick='return changePage("Page11");'>11</a>
+        <a href='#' onclick='return changePage("Page12");'>12</a>
+        <a href='#' onclick='return changePage("Page13");'>13</a>
+    </div>
+
+    <script type='text/javascript' src='main.js'></script>
+</body>
+</html>

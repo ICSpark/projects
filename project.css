@@ -1,0 +1,121 @@
+/*
+ * This is the stylesheet for Nonogram Puzzle, adapted from a project I completed when I was a student (just like you!)
+ *
+ * Feel free to dig around after you are done with the JavaScript practice.
+ * Most of the things here should look familiar and can be changed to create nonogram puzzles of different sizes.
+ *
+ * - Michelle
+ */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26pt;
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 1px solid #111;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 3px 3px #111;
+  cursor: pointer;
+}
+
+.box, .col-num-box, .row-num-box {
+  line-height: 24pt;
+}
+
+.box, .col-num-box, #empty-square, #left-nums, #top-nums {
+  float: left;
+}
+
+.clear, #left-nums, #puzzle {
+  clear: both;
+}
+
+.col-num-box, #top-nums {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#empty-square {
+  border-top: 3px solid black;
+  background-color: #111;
+}
+
+#clear {
+  font-size: 18pt;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.filled {
+  background-color: #000;
+}
+
+#grid {
+  border: 1px solid #000;
+  border-right: 2px solid #000;
+  display: table;
+}
+
+#puzzle {
+  display: inline-block;
+}
+
+.left-row, .row-num-box {
+  float: right;
+}
+
+#left-nums, .left-row {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#left-nums, #empty-square {
+  border-left: 3px solid #000;
+}
+
+#top-nums {
+  border-top: 3px solid #000;
+}
+
+.thick-right-border {
+  border-right: 2px solid black;
+}
+
+.thick-top-border {
+  border-top: 2px solid black;
+}
+
+.horizontal-divider {
+  border-bottom: 2px solid black;
+}
+
+.vertical-divider {
+  border-left: 2px solid black;
+}
+
+.five #left-nums, .five .left-row, .five #empty-square {
+  width: 210px;
+}
+
+.five .box, .five .col-num-box, .five .row-num-box {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+}
+
+.five #empty-square {
+  height: 210px;
+}
+
+.five {
+  font-size: 18pt;
+}

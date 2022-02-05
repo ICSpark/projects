@@ -24,7 +24,7 @@ Create a link tag for your CSS stylesheet in your html document.
 3. Then create a short description of your gallery by using `h2`tag.
 4. Now, you can create one `div`tag.
 5. Inside this `div`, you can add your photos by creating `img src=""`tag. Then make sure you use the correct `src` link to the image.
-6. After you added the photos/pictures, you can add some descriptions to your photos so people understand it better. Create this using `div id=` tag. 
+6. After you added the photos/pictures, you can add some descriptions to your photos so people understand it better. Create this using `div id=""` tag. 
 You can name the id description or something else.
 7. If the images are too big, you can also size it by add attribute after the link to image. So you will create `style=""`. You can size the width and height.
 
@@ -44,7 +44,7 @@ You can name the id description or something else.
 - Set border to 15px solid black
 - Set padding to 5px
 - Set margin to 20 px
-5. Using `#description`(or the name you give for the `div id=` tag for the description) to modify the position, size and color for it/them:
+5. Using `#description`(or the name you give for the `div id="" ` tag for the description) to modify the position, size and color for it/them:
 - Set the position to the style you prefer
 - You can set change more style for the description words or leave it as default color
 
